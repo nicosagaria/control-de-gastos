@@ -9,7 +9,7 @@ while ((usuario != "robertosanchez") || (clave != "operacionrosarosa123") || (ve
     verificacionRobot = prompt("¿Usted es un Robot? si o no");
 }
 
-alert("Bienvenido a su controlador de gastos");
+alert("Bienvenido Roberto Sanchez a su controlador de gastos");
 
 
 let ingresoSemanal = parseInt(prompt("Coloque su ingreso de esta semana"));
