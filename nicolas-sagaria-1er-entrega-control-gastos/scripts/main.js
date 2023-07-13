@@ -1,8 +1,6 @@
-alert("Este simulador solo acepta minúsculas");
-
-let usuario = prompt("Ingrese su nombre de usuario");
-let clave = prompt("ingrese su contraseña");
-let verificacionRobot = prompt("¿Usted es un Robot? si o no");
+let usuario = prompt("Ingrese su nombre de usuario").toLowerCase();
+let clave = prompt("ingrese su contraseña").toLowerCase();
+let verificacionRobot = prompt("¿Usted es un Robot? si o no").toLowerCase();
 
 while ((usuario != "robertosanchez") || (clave != "operacionrosarosa123") || (verificacionRobot != "no")) {
     alert("El usuario o contaseña son incorrectos");
