@@ -1,3 +1,19 @@
+alert("Este simulador solo acepta minúsculas");
+
+let usuario = prompt("Ingrese su nombre de usuario");
+let clave = prompt("ingrese su contraseña");
+let verificacionRobot = prompt("¿Usted es un Robot? si o no");
+
+while ((usuario != "robertosanchez") || (clave != "operacionrosarosa123") || (verificacionRobot != "no")) {
+    alert("El usuario o contaseña son incorrectos");
+    usuario = prompt("Ingrese su nombre de usuario");
+    clave = prompt("ingrese su contraseña");
+    verificacionRobot = prompt("¿Usted es un Robot? si o no");
+}
+
+alert("Bienvenido a su controlador de gastos");
+
+
 let ingresoSemanal = parseInt(prompt("Coloque su ingreso de esta semana"));
 alert("Tu ingreso de esta semana es de " + ingresoSemanal);
 
