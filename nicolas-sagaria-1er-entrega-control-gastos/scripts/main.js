@@ -1,3 +1,5 @@
+// Ingreso de usuario
+
 let usuario = prompt("Ingrese su nombre de usuario").toLowerCase();
 let clave = prompt("ingrese su contraseña").toLowerCase();
 let verificacionRobot = prompt("¿Usted es un Robot? si o no").toLowerCase();
@@ -11,6 +13,7 @@ while ((usuario != "robertosanchez") || (clave != "operacionrosarosa123") || (ve
 
 alert("Bienvenido Roberto Sanchez a su controlador de gastos");
 
+// Ingreso de gastos semanales
 
 let ingresoSemanal = parseInt(prompt("Coloque su ingreso de esta semana"));
 alert("Tu ingreso de esta semana es de " + ingresoSemanal);
